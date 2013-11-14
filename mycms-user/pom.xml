@@ -7,5 +7,5 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../mycms-parent</relativePath>
 	</parent>
-	<artifactId>mycms-core</artifactId>
-</project>
+	<artifactId>mycms-user</artifactId>
+	</project>

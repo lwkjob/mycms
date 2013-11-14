@@ -6,5 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>../mycms-core</module>
+  	<module>../mycms-web</module>
+  	<module>../mycms-user</module>
   </modules>
 </project>
