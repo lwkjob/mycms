@@ -4,7 +4,7 @@
     <groupId>com.lwk.mycms</groupId>
     <artifactId>mycms-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../cms-parent</relativePath>
+    <relativePath>../mycms-parent</relativePath>
   </parent>
   	<artifactId>mycms-basicHibernate</artifactId>
   	<packaging>jar</packaging>

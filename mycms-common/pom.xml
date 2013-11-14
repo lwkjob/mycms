@@ -4,9 +4,8 @@
     <groupId>com.lwk.mycms</groupId>
     <artifactId>mycms-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../mycms-parent</relativePath>
+     <relativePath>../mycms-parent</relativePath>
   </parent>
-  <groupId>com.lwk.mycms</groupId>
-  <artifactId>mycms-topic</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>mycms-common</artifactId>
+  <packaging>jar</packaging>
 </project>
