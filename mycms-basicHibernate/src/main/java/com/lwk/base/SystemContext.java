@@ -1,28 +1,26 @@
 package com.lwk.base;
 
 
-
-
 /**
- * ÓÃÀ´´«µİÁĞ±í¶ÔÏóµÄThreadLocalÊı¾İ
+ * ç”¨æ¥ä¼ é€’åˆ—è¡¨å¯¹è±¡çš„ThreadLocalæ•°æ®
  * @author Administrator
  *
  */
 public class SystemContext {
 	/**
-	 * ·ÖÒ³´óĞ¡
+	 * åˆ†é¡µå¤§å°
 	 */
 	private static ThreadLocal<Integer> pageSize = new ThreadLocal<Integer>();
 	/**
-	 * ·ÖÒ³µÄÆğÊ¼Ò³
+	 * åˆ†é¡µçš„èµ·å§‹é¡µ
 	 */
 	private static ThreadLocal<Integer> pageOffset = new ThreadLocal<Integer>();
 	/**
-	 * ÁĞ±íµÄÅÅĞò×Ö¶Î
+	 * åˆ—è¡¨çš„æ’åºå­—æ®µ
 	 */
 	private static ThreadLocal<String> sort = new ThreadLocal<String>();
 	/**
-	 * ÁĞ±íµÄÅÅĞò·½Ê½
+	 * åˆ—è¡¨çš„æ’åºæ–¹å¼
 	 */
 	private static ThreadLocal<String> order = new ThreadLocal<String>();
 	
@@ -82,4 +80,3 @@ public class SystemContext {
 	}
 	
 }
-

@@ -3,26 +3,26 @@ package com.lwk.base;
 import java.util.List;
 
 /**
- * ·ÖÒ³¶ÔÏó
+ * åˆ†é¡µå¯¹è±¡
  * @author Administrator
  *
  * @param <T>
  */
 public class Pager<T> {
 	/**
-	 * ·ÖÒ³µÄ´óĞ¡
+	 * åˆ†é¡µçš„å¤§å°
 	 */
 	private int size;
 	/**
-	 * ·ÖÒ³µÄÆğÊ¼Ò³
+	 * åˆ†é¡µçš„èµ·å§‹é¡µ
 	 */
 	private int offset;
 	/**
-	 * ×Ü¼ÇÂ¼Êı
+	 * æ€»è®°å½•æ•°
 	 */
 	private long total;
 	/**
-	 * ·ÖÒ³µÄÊı¾İ
+	 * åˆ†é¡µçš„æ•°æ®
 	 */
 	private List<T> datas;
 	

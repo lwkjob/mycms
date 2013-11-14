@@ -6,7 +6,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../mycms-parent</relativePath>
   </parent>
-  <groupId>com.lwk.mycms</groupId>
   <artifactId>mycms-topic</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <build>
+		<plugins>
+			<!-- compiler插件, 设定JDK版本 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>
