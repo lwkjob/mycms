@@ -7,6 +7,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../mycms-parent</relativePath>
 	</parent>
-	<artifactId>mycms-core</artifactId>
+	<artifactId>mycms-topic</artifactId>
 	<packaging>jar</packaging>
 </project>

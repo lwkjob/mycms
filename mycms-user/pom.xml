@@ -8,4 +8,5 @@
 		<relativePath>../mycms-parent</relativePath>
 	</parent>
 	<artifactId>mycms-user</artifactId>
+	<packaging>jar</packaging>
 	</project>

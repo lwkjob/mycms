@@ -8,5 +8,8 @@
   	<module>../mycms-core</module>
   	<module>../mycms-web</module>
   	<module>../mycms-user</module>
+  	<module>../mycms-topic</module>
+  	<module>../mycms-basicHibernate</module>
+  	<module>../mycms-common</module>
   </modules>
 </project>
